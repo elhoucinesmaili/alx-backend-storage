@@ -1,0 +1,2 @@
+// remove all document with attr name equals to ALX
+db.school.deleteMany({name: "ALX"})
